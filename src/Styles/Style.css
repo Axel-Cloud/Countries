@@ -1,0 +1,1132 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap");
+/* Light Theme */
+/* Dark Theme */
+/* Spaces */
+/* Font Family */
+body {
+  background-color: var(--Theme-Body);
+}
+
+.Main {
+  position: relative;
+}
+
+.Main .LightTheme {
+  position: absolute;
+  background-color: #e6e6e6;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.Main .LightTheme header {
+  -webkit-box-shadow: 0px 0px 17px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 17px 4px rgba(0, 0, 0, 0.25);
+}
+
+@media (min-width: 800px) {
+  .Main .LightTheme header {
+    padding: 0px 100px;
+  }
+}
+
+@media (max-width: 800px) {
+  .Main .LightTheme header {
+    padding: 0px 20px;
+  }
+}
+
+.Main .LightTheme header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Main .LightTheme header nav .Title {
+  font-family: "Nunito Sans";
+  font-weight: 800;
+  font-size: 20px;
+  margin: 1em 0px;
+  color: #111517;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+.Main .LightTheme header nav .ThemeSwitcher {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: auto;
+  height: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  color: #111517;
+}
+
+.Main .LightTheme header nav .ThemeSwitcher .ThemeButton {
+  border: none;
+  cursor: pointer;
+  -webkit-transition: font-size 0.5s;
+  transition: font-size 0.5s;
+  font-size: 16px;
+  margin-left: 2.5px;
+  font-family: "Nunito Sans";
+  font-weight: 600;
+  color: #111517;
+  background-color: #00000000;
+}
+
+.Main .LightTheme header nav .ThemeSwitcher .ThemeButton:hover {
+  -webkit-transition: font-size 0.5s;
+  transition: font-size 0.5s;
+  font-size: large;
+}
+
+.Main .LightTheme .Filter {
+  height: 65px;
+  margin-top: 50px;
+  /* Media query Padding */
+  /* Media query responsive */
+}
+
+@media (min-width: 800px) {
+  .Main .LightTheme .Filter {
+    padding: 0px 100px;
+  }
+}
+
+@media (max-width: 800px) {
+  .Main .LightTheme .Filter {
+    padding: 0px 20px;
+  }
+}
+
+@media (max-width: 650px) {
+  .Main .LightTheme .Filter {
+    display: block;
+  }
+}
+
+@media (min-width: 650px) {
+  .Main .LightTheme .Filter {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+.Main .LightTheme .Filter .FilterContainer {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 5px;
+}
+
+@media (max-width: 650px) {
+  .Main .LightTheme .Filter .FilterContainer {
+    width: 100%;
+  }
+}
+
+@media (min-width: 650px) {
+  .Main .LightTheme .Filter .FilterContainer {
+    width: 35%;
+    min-width: 270px;
+  }
+}
+
+.Main .LightTheme .Filter .FilterContainer .IconFilter {
+  margin-left: 25px;
+  color: #111517;
+}
+
+.Main .LightTheme .Filter .FilterContainer .InputFilter {
+  width: 100%;
+  margin-left: 15px;
+  font-size: 14px;
+  font-family: "Nunito Sans";
+  font-weight: 600;
+  word-wrap: break-word;
+  border: none;
+  outline: none;
+  background-color: #00000000;
+  color: #111517;
+}
+
+.Main .LightTheme .Filter .FilterRegion {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  width: 12.5%;
+  min-width: 150px;
+  height: 100%;
+  padding: 0px 25px;
+  background: url(../Assets/LightArrow.png) no-repeat right #111517;
+  background-size: 12.5px;
+  background-position: 90%;
+  background-color: white;
+  color: #111517;
+  font-family: "Nunito Sans";
+  font-weight: 600;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+@media (max-width: 650px) {
+  .Main .LightTheme .Filter .FilterRegion {
+    margin-top: 5%;
+  }
+}
+
+.Main .LightTheme .Filter ::-webkit-input-placeholder {
+  color: #4d575c;
+  word-wrap: break-word;
+}
+
+.Main .LightTheme .Filter :-ms-input-placeholder {
+  color: #4d575c;
+  word-wrap: break-word;
+}
+
+.Main .LightTheme .Filter ::-ms-input-placeholder {
+  color: #4d575c;
+  word-wrap: break-word;
+}
+
+.Main .LightTheme .Filter ::placeholder {
+  color: #4d575c;
+  word-wrap: break-word;
+}
+
+.Main .LightTheme .rai-container {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.Main .LightTheme .CountriesContainer {
+  display: -ms-grid;
+  display: grid;
+  margin-top: 2.5%;
+  row-gap: 3em;
+}
+
+@media (min-width: 800px) {
+  .Main .LightTheme .CountriesContainer {
+    padding: 0px 100px;
+  }
+}
+
+@media (max-width: 800px) {
+  .Main .LightTheme .CountriesContainer {
+    padding: 0px 20px;
+  }
+}
+
+.Main .LightTheme .CountriesContainer .Country {
+  height: 400px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.Main .LightTheme .CountriesContainer .Country figure {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.Main .LightTheme .CountriesContainer .Country figure div {
+  width: 100%;
+  height: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-bottom: 7.5%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.Main .LightTheme .CountriesContainer .Country figure .LinkDetail {
+  color: #111517;
+  font-weight: bold;
+  padding-top: 7.5%;
+  padding-left: 10%;
+  text-decoration: none;
+}
+
+.Main .LightTheme .CountriesContainer .Country figure p {
+  color: #111517;
+  padding-left: 10%;
+  margin: 0;
+  font-size: 14px;
+}
+
+.Main .LightTheme .CountriesContainer .Country figure p:first-of-type {
+  margin-top: 5%;
+}
+
+.Main .LightTheme .CountriesContainer .Country figure p span {
+  color: #858585;
+}
+
+@media (max-width: 649px) {
+  .Main .LightTheme .CountriesContainer {
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    margin-top: 125px;
+  }
+  .Main .LightTheme .CountriesContainer .Country {
+    margin: 0 2.25em;
+  }
+}
+
+@media (min-width: 650px) and (max-width: 1023px) {
+  .Main .LightTheme .CountriesContainer {
+    -ms-grid-columns: (50%)[2];
+        grid-template-columns: repeat(2, 50%);
+  }
+  .Main .LightTheme .CountriesContainer .Country:nth-child(odd) {
+    margin-right: 1.5em;
+  }
+  .Main .LightTheme .CountriesContainer .Country:nth-child(even) {
+    margin-left: 1.5em;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .Main .LightTheme .CountriesContainer {
+    -ms-grid-columns: (34%)[3];
+        grid-template-columns: repeat(3, 34%);
+  }
+  .Main .LightTheme .CountriesContainer .Country:nth-child(3n+1) {
+    margin-right: 1.5em;
+  }
+  .Main .LightTheme .CountriesContainer .Country:nth-child(3n+2) {
+    margin: 0em 1.5em;
+  }
+  .Main .LightTheme .CountriesContainer .Country:nth-child(3n+3) {
+    margin: 0px 1.5em;
+  }
+}
+
+@media (min-width: 1280px) {
+  .Main .LightTheme .CountriesContainer {
+    -ms-grid-columns: (25%)[4];
+        grid-template-columns: repeat(4, 25%);
+  }
+  .Main .LightTheme .CountriesContainer .Country:nth-child(4n+1) {
+    margin-right: 1.5em;
+  }
+  .Main .LightTheme .CountriesContainer .Country:nth-child(4n+2) {
+    margin: 0em 1.5em;
+  }
+  .Main .LightTheme .CountriesContainer .Country:nth-child(4n+3) {
+    margin: 0em 1.5em;
+  }
+  .Main .LightTheme .CountriesContainer .Country:nth-child(4n+4) {
+    margin-left: 1.5em;
+  }
+}
+
+@media (min-width: 800px) {
+  .Main .LightTheme .CountryDetailContainer {
+    padding: 0px 100px;
+  }
+}
+
+@media (max-width: 800px) {
+  .Main .LightTheme .CountryDetailContainer {
+    padding: 0px 20px;
+  }
+}
+
+.Main .LightTheme .CountryDetailContainer a {
+  text-decoration: none;
+}
+
+.Main .LightTheme .CountryDetailContainer .BackBtn {
+  width: 130px;
+  height: 40px;
+  margin-top: 5%;
+  background-color: white;
+  color: #111517;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: none;
+  outline: none;
+  border-radius: 7.5px;
+  font-family: "Nunito Sans";
+  font-size: 14px;
+  -webkit-box-shadow: 0px 0px 35px 2px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 0px 35px 2px rgba(0, 0, 0, 0.75);
+}
+
+.Main .LightTheme .CountryDetailContainer .BackBtn p {
+  margin-left: 10px;
+}
+
+.Main .LightTheme .CountryDetailContainer .Details {
+  display: -ms-grid;
+  display: grid;
+  margin-top: 4%;
+  height: 15vh;
+}
+
+@media (min-width: 930px) {
+  .Main .LightTheme .CountryDetailContainer .Details {
+    -ms-grid-columns: (50%)[2];
+        grid-template-columns: repeat(2, 50%);
+  }
+  .Main .LightTheme .CountryDetailContainer .Details img {
+    width: 75%;
+  }
+}
+
+@media (max-width: 929px) {
+  .Main .LightTheme .CountryDetailContainer .Details {
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+  }
+  .Main .LightTheme .CountryDetailContainer .Details img {
+    width: 100%;
+  }
+}
+
+.Main .LightTheme .CountryDetailContainer .Details figure {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.Main .LightTheme .CountryDetailContainer .Details figure img {
+  max-height: 500px;
+}
+
+.Main .LightTheme .CountryDetailContainer .Details .TextDetails {
+  position: relative;
+}
+
+.Main .LightTheme .CountryDetailContainer .Details .TextDetails .CountryName {
+  color: #111517;
+  font-family: "Nunito Sans";
+  font-size: 30px;
+  font-weight: bolder;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+@media (min-width: 650px) {
+  .Main .LightTheme .CountryDetailContainer .Details .TextDetails .SubDetails {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .Main .LightTheme .CountryDetailContainer .Details .TextDetails .SubDetails .SubDetailsLeft {
+    margin-right: 10%;
+  }
+  .Main .LightTheme .CountryDetailContainer .Details .TextDetails .SubDetails .SubDetailsRight {
+    margin-left: 10%;
+  }
+}
+
+@media (max-width: 649px) {
+  .Main .LightTheme .CountryDetailContainer .Details .TextDetails .SubDetails {
+    display: block;
+  }
+  .Main .LightTheme .CountryDetailContainer .Details .TextDetails .SubDetails .SubDetailsRight {
+    margin-top: 10%;
+  }
+}
+
+.Main .LightTheme .CountryDetailContainer .Details .TextDetails .SubDetails p {
+  color: #111517;
+  font-family: "Nunito Sans";
+  font-weight: 600;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.Main .LightTheme .CountryDetailContainer .Details .TextDetails .SubDetails p span {
+  color: #858585;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.Main .LightTheme .CountryDetailContainer .Details .TextDetails .BorderCountries {
+  width: 100%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  display: -ms-grid;
+  display: grid;
+  gap: 10px;
+}
+
+@media (min-width: 1650px) {
+  .Main .LightTheme .CountryDetailContainer .Details .TextDetails .BorderCountries {
+    -ms-grid-columns: (16.66%)[6];
+        grid-template-columns: repeat(6, 16.66%);
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 1649px) {
+  .Main .LightTheme .CountryDetailContainer .Details .TextDetails .BorderCountries {
+    -ms-grid-columns: (20%)[5];
+        grid-template-columns: repeat(5, 20%);
+  }
+}
+
+@media (min-width: 1150px) and (max-width: 1399px) {
+  .Main .LightTheme .CountryDetailContainer .Details .TextDetails .BorderCountries {
+    -ms-grid-columns: (25%)[4];
+        grid-template-columns: repeat(4, 25%);
+  }
+}
+
+@media (min-width: 930px) and (max-width: 1149px) {
+  .Main .LightTheme .CountryDetailContainer .Details .TextDetails .BorderCountries {
+    -ms-grid-columns: (33.33%)[3];
+        grid-template-columns: repeat(3, 33.33%);
+  }
+}
+
+@media (min-width: 520px) and (max-width: 929px) {
+  .Main .LightTheme .CountryDetailContainer .Details .TextDetails .BorderCountries p {
+    margin: 0;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-column: 1 / 4;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 519px) {
+  .Main .LightTheme .CountryDetailContainer .Details .TextDetails .BorderCountries {
+    -ms-grid-columns: (50%)[2];
+        grid-template-columns: repeat(2, 50%);
+  }
+  .Main .LightTheme .CountryDetailContainer .Details .TextDetails .BorderCountries p {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1 / 3;
+  }
+}
+
+@media (max-width: 359px) {
+  .Main .LightTheme .CountryDetailContainer .Details .TextDetails .BorderCountries {
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+  }
+}
+
+.Main .LightTheme .CountryDetailContainer .Details .TextDetails .BorderCountries p {
+  color: #111517;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.Main .LightTheme .CountryDetailContainer .Details .TextDetails .BorderCountries a {
+  text-decoration: none;
+  width: 100%;
+}
+
+.Main .LightTheme .CountryDetailContainer .Details .TextDetails .BorderCountries a button {
+  width: 100%;
+  background-color: white;
+  color: #858585;
+  height: 50px;
+  margin: auto 0;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-weight: 600;
+  font-family: "Nunito Sans";
+}
+
+.Main .DarkTheme {
+  position: absolute;
+  background-color: #202c37;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.Main .DarkTheme header {
+  -webkit-box-shadow: 0px 0px 17px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 17px 4px rgba(0, 0, 0, 0.25);
+}
+
+@media (min-width: 800px) {
+  .Main .DarkTheme header {
+    padding: 0px 100px;
+  }
+}
+
+@media (max-width: 800px) {
+  .Main .DarkTheme header {
+    padding: 0px 20px;
+  }
+}
+
+.Main .DarkTheme header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Main .DarkTheme header nav .Title {
+  font-family: "Nunito Sans";
+  font-weight: 800;
+  font-size: 20px;
+  margin: 1em 0px;
+  color: white;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+.Main .DarkTheme header nav .ThemeSwitcher {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: auto;
+  height: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  color: white;
+}
+
+.Main .DarkTheme header nav .ThemeSwitcher .ThemeButton {
+  border: none;
+  cursor: pointer;
+  -webkit-transition: font-size 0.5s;
+  transition: font-size 0.5s;
+  font-size: 16px;
+  margin-left: 2.5px;
+  font-family: "Nunito Sans";
+  font-weight: 600;
+  color: white;
+  background-color: #00000000;
+}
+
+.Main .DarkTheme header nav .ThemeSwitcher .ThemeButton:hover {
+  -webkit-transition: font-size 0.5s;
+  transition: font-size 0.5s;
+  font-size: large;
+}
+
+.Main .DarkTheme .Filter {
+  height: 65px;
+  margin-top: 50px;
+  /* Media query Padding */
+  /* Media query responsive */
+}
+
+@media (min-width: 800px) {
+  .Main .DarkTheme .Filter {
+    padding: 0px 100px;
+  }
+}
+
+@media (max-width: 800px) {
+  .Main .DarkTheme .Filter {
+    padding: 0px 20px;
+  }
+}
+
+@media (max-width: 650px) {
+  .Main .DarkTheme .Filter {
+    display: block;
+  }
+}
+
+@media (min-width: 650px) {
+  .Main .DarkTheme .Filter {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+.Main .DarkTheme .Filter .FilterContainer {
+  background-color: #2b3945;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 5px;
+}
+
+@media (max-width: 650px) {
+  .Main .DarkTheme .Filter .FilterContainer {
+    width: 100%;
+  }
+}
+
+@media (min-width: 650px) {
+  .Main .DarkTheme .Filter .FilterContainer {
+    width: 35%;
+    min-width: 270px;
+  }
+}
+
+.Main .DarkTheme .Filter .FilterContainer .IconFilter {
+  margin-left: 25px;
+  color: white;
+}
+
+.Main .DarkTheme .Filter .FilterContainer .InputFilter {
+  width: 100%;
+  margin-left: 15px;
+  font-size: 14px;
+  font-family: "Nunito Sans";
+  font-weight: 600;
+  word-wrap: break-word;
+  border: none;
+  outline: none;
+  background-color: #00000000;
+  color: white;
+}
+
+.Main .DarkTheme .Filter .FilterRegion {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  width: 12.5%;
+  min-width: 150px;
+  height: 100%;
+  padding: 0px 25px;
+  background: url(../Assets/DarkArrow.png) no-repeat right white;
+  background-size: 12.5px;
+  background-position: 90%;
+  background-color: #2b3945;
+  color: white;
+  font-family: "Nunito Sans";
+  font-weight: 600;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+@media (max-width: 650px) {
+  .Main .DarkTheme .Filter .FilterRegion {
+    margin-top: 5%;
+  }
+}
+
+.Main .DarkTheme .Filter ::-webkit-input-placeholder {
+  color: #cccccc;
+  word-wrap: break-word;
+}
+
+.Main .DarkTheme .Filter :-ms-input-placeholder {
+  color: #cccccc;
+  word-wrap: break-word;
+}
+
+.Main .DarkTheme .Filter ::-ms-input-placeholder {
+  color: #cccccc;
+  word-wrap: break-word;
+}
+
+.Main .DarkTheme .Filter ::placeholder {
+  color: #cccccc;
+  word-wrap: break-word;
+}
+
+.Main .DarkTheme .rai-container {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.Main .DarkTheme .CountriesContainer {
+  display: -ms-grid;
+  display: grid;
+  margin-top: 2.5%;
+  row-gap: 3em;
+}
+
+@media (min-width: 800px) {
+  .Main .DarkTheme .CountriesContainer {
+    padding: 0px 100px;
+  }
+}
+
+@media (max-width: 800px) {
+  .Main .DarkTheme .CountriesContainer {
+    padding: 0px 20px;
+  }
+}
+
+.Main .DarkTheme .CountriesContainer .Country {
+  height: 400px;
+  background-color: #2b3945;
+  border-radius: 5px;
+}
+
+.Main .DarkTheme .CountriesContainer .Country figure {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.Main .DarkTheme .CountriesContainer .Country figure div {
+  width: 100%;
+  height: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-bottom: 7.5%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.Main .DarkTheme .CountriesContainer .Country figure .LinkDetail {
+  color: white;
+  font-weight: bold;
+  padding-top: 7.5%;
+  padding-left: 10%;
+  text-decoration: none;
+}
+
+.Main .DarkTheme .CountriesContainer .Country figure p {
+  color: white;
+  padding-left: 10%;
+  margin: 0;
+  font-size: 14px;
+}
+
+.Main .DarkTheme .CountriesContainer .Country figure p:first-of-type {
+  margin-top: 5%;
+}
+
+.Main .DarkTheme .CountriesContainer .Country figure p span {
+  color: #cccccc;
+}
+
+@media (max-width: 649px) {
+  .Main .DarkTheme .CountriesContainer {
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    margin-top: 125px;
+  }
+  .Main .DarkTheme .CountriesContainer .Country {
+    margin: 0 2.25em;
+  }
+}
+
+@media (min-width: 650px) and (max-width: 1023px) {
+  .Main .DarkTheme .CountriesContainer {
+    -ms-grid-columns: (50%)[2];
+        grid-template-columns: repeat(2, 50%);
+  }
+  .Main .DarkTheme .CountriesContainer .Country:nth-child(odd) {
+    margin-right: 1.5em;
+  }
+  .Main .DarkTheme .CountriesContainer .Country:nth-child(even) {
+    margin-left: 1.5em;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .Main .DarkTheme .CountriesContainer {
+    -ms-grid-columns: (34%)[3];
+        grid-template-columns: repeat(3, 34%);
+  }
+  .Main .DarkTheme .CountriesContainer .Country:nth-child(3n+1) {
+    margin-right: 1.5em;
+  }
+  .Main .DarkTheme .CountriesContainer .Country:nth-child(3n+2) {
+    margin: 0em 1.5em;
+  }
+  .Main .DarkTheme .CountriesContainer .Country:nth-child(3n+3) {
+    margin: 0px 1.5em;
+  }
+}
+
+@media (min-width: 1280px) {
+  .Main .DarkTheme .CountriesContainer {
+    -ms-grid-columns: (25%)[4];
+        grid-template-columns: repeat(4, 25%);
+  }
+  .Main .DarkTheme .CountriesContainer .Country:nth-child(4n+1) {
+    margin-right: 1.5em;
+  }
+  .Main .DarkTheme .CountriesContainer .Country:nth-child(4n+2) {
+    margin: 0em 1.5em;
+  }
+  .Main .DarkTheme .CountriesContainer .Country:nth-child(4n+3) {
+    margin: 0em 1.5em;
+  }
+  .Main .DarkTheme .CountriesContainer .Country:nth-child(4n+4) {
+    margin-left: 1.5em;
+  }
+}
+
+@media (min-width: 800px) {
+  .Main .DarkTheme .CountryDetailContainer {
+    padding: 0px 100px;
+  }
+}
+
+@media (max-width: 800px) {
+  .Main .DarkTheme .CountryDetailContainer {
+    padding: 0px 20px;
+  }
+}
+
+.Main .DarkTheme .CountryDetailContainer a {
+  text-decoration: none;
+}
+
+.Main .DarkTheme .CountryDetailContainer .BackBtn {
+  width: 130px;
+  height: 40px;
+  margin-top: 5%;
+  background-color: #2b3945;
+  color: white;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: none;
+  outline: none;
+  border-radius: 7.5px;
+  font-family: "Nunito Sans";
+  font-size: 14px;
+  -webkit-box-shadow: 0px 0px 35px 2px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 0px 35px 2px rgba(0, 0, 0, 0.75);
+}
+
+.Main .DarkTheme .CountryDetailContainer .BackBtn p {
+  margin-left: 10px;
+}
+
+.Main .DarkTheme .CountryDetailContainer .Details {
+  display: -ms-grid;
+  display: grid;
+  margin-top: 4%;
+  height: 15vh;
+}
+
+@media (min-width: 930px) {
+  .Main .DarkTheme .CountryDetailContainer .Details {
+    -ms-grid-columns: (50%)[2];
+        grid-template-columns: repeat(2, 50%);
+  }
+  .Main .DarkTheme .CountryDetailContainer .Details img {
+    width: 75%;
+  }
+}
+
+@media (max-width: 929px) {
+  .Main .DarkTheme .CountryDetailContainer .Details {
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+  }
+  .Main .DarkTheme .CountryDetailContainer .Details img {
+    width: 100%;
+  }
+}
+
+.Main .DarkTheme .CountryDetailContainer .Details figure {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.Main .DarkTheme .CountryDetailContainer .Details figure img {
+  max-height: 500px;
+}
+
+.Main .DarkTheme .CountryDetailContainer .Details .TextDetails {
+  position: relative;
+}
+
+.Main .DarkTheme .CountryDetailContainer .Details .TextDetails .CountryName {
+  color: white;
+  font-family: "Nunito Sans";
+  font-size: 30px;
+  font-weight: bolder;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+@media (min-width: 650px) {
+  .Main .DarkTheme .CountryDetailContainer .Details .TextDetails .SubDetails {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .Main .DarkTheme .CountryDetailContainer .Details .TextDetails .SubDetails .SubDetailsLeft {
+    margin-right: 10%;
+  }
+  .Main .DarkTheme .CountryDetailContainer .Details .TextDetails .SubDetails .SubDetailsRight {
+    margin-left: 10%;
+  }
+}
+
+@media (max-width: 649px) {
+  .Main .DarkTheme .CountryDetailContainer .Details .TextDetails .SubDetails {
+    display: block;
+  }
+  .Main .DarkTheme .CountryDetailContainer .Details .TextDetails .SubDetails .SubDetailsRight {
+    margin-top: 10%;
+  }
+}
+
+.Main .DarkTheme .CountryDetailContainer .Details .TextDetails .SubDetails p {
+  color: white;
+  font-family: "Nunito Sans";
+  font-weight: 600;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.Main .DarkTheme .CountryDetailContainer .Details .TextDetails .SubDetails p span {
+  color: #cccccc;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.Main .DarkTheme .CountryDetailContainer .Details .TextDetails .BorderCountries {
+  width: 100%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  display: -ms-grid;
+  display: grid;
+  gap: 10px;
+}
+
+@media (min-width: 1650px) {
+  .Main .DarkTheme .CountryDetailContainer .Details .TextDetails .BorderCountries {
+    -ms-grid-columns: (16.66%)[6];
+        grid-template-columns: repeat(6, 16.66%);
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 1649px) {
+  .Main .DarkTheme .CountryDetailContainer .Details .TextDetails .BorderCountries {
+    -ms-grid-columns: (20%)[5];
+        grid-template-columns: repeat(5, 20%);
+  }
+}
+
+@media (min-width: 1150px) and (max-width: 1399px) {
+  .Main .DarkTheme .CountryDetailContainer .Details .TextDetails .BorderCountries {
+    -ms-grid-columns: (25%)[4];
+        grid-template-columns: repeat(4, 25%);
+  }
+}
+
+@media (min-width: 930px) and (max-width: 1149px) {
+  .Main .DarkTheme .CountryDetailContainer .Details .TextDetails .BorderCountries {
+    -ms-grid-columns: (33.33%)[3];
+        grid-template-columns: repeat(3, 33.33%);
+  }
+}
+
+@media (min-width: 520px) and (max-width: 929px) {
+  .Main .DarkTheme .CountryDetailContainer .Details .TextDetails .BorderCountries p {
+    margin: 0;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-column: 1 / 4;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 519px) {
+  .Main .DarkTheme .CountryDetailContainer .Details .TextDetails .BorderCountries {
+    -ms-grid-columns: (50%)[2];
+        grid-template-columns: repeat(2, 50%);
+  }
+  .Main .DarkTheme .CountryDetailContainer .Details .TextDetails .BorderCountries p {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1 / 3;
+  }
+}
+
+@media (max-width: 359px) {
+  .Main .DarkTheme .CountryDetailContainer .Details .TextDetails .BorderCountries {
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+  }
+}
+
+.Main .DarkTheme .CountryDetailContainer .Details .TextDetails .BorderCountries p {
+  color: white;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.Main .DarkTheme .CountryDetailContainer .Details .TextDetails .BorderCountries a {
+  text-decoration: none;
+  width: 100%;
+}
+
+.Main .DarkTheme .CountryDetailContainer .Details .TextDetails .BorderCountries a button {
+  width: 100%;
+  background-color: #2b3945;
+  color: #cccccc;
+  height: 50px;
+  margin: auto 0;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-weight: 600;
+  font-family: "Nunito Sans";
+}
+/*# sourceMappingURL=Style.css.map */
